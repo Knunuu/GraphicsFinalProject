@@ -24,8 +24,8 @@ MonoBehaviour:
         m_PreInfinity: 0
         m_PostInfinity: 0
         m_RotationOrder: 0
-  - From: CinemachineCamera (6)
-    To: CinemachineCamera (7)
+  - From: CinemachineCamera (5)
+    To: CinemachineCamera (6)
     Blend:
       Style: 5
       Time: 0.2
