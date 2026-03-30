@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6660261464235299212
+--- !u!114 &-5647656360822486096
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,13 +20,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Laser
-  m_Shader: {fileID: -6465566751694194690, guid: d3a526c3b66ca664e93c55559d8e6fde, type: 3}
+  m_Name: Shader Graphs_Lightning
+  m_Shader: {fileID: -6465566751694194690, guid: f6bb6b60e812e364dbb523a22b24546f, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -51,18 +51,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FlowSpeed: 2
-    - _FoamSpeed: 0.1
-    - _FoamThickness: 1
-    - _Foam_Density: 20
-    - _MaxWaveHeight: 0.1
+    - _Amount: 3
+    - _Clipping: 1
+    - _Clipping_Strength: 4
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _WaveHeight: 0.05
-    - _WaveSpread: 5
+    - _Scale: 20
+    - _Thickness: 0.15
     m_Colors:
-    - _Color: {r: 0.58636945, g: 0, b: 0.8352941, a: 1}
-    - _FlowDirection: {r: 0, g: 1, b: 0, a: 0}
-    - _FoamColor: {r: 1.4652765, g: 0.044367444, b: 2.1185474, a: 1}
+    - _Color: {r: 29.857058, g: 4.225051, b: 13.377349, a: 1}
+    - _Noise_Speed: {r: 0.2, g: 0.5, b: 0, a: 0}
+    - _Speed: {r: 0.5, g: 1.5, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

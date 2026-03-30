@@ -208,7 +208,7 @@
                 "m_Node": {
                     "m_Id": "187220dc49ec4475b560525a7fdf9df9"
                 },
-                "m_SlotId": 3
+                "m_SlotId": 4
             },
             "m_InputSlot": {
                 "m_Node": {
@@ -1420,7 +1420,7 @@
         "a": 1.0
     },
     "isMainColor": false,
-    "m_ColorMode": 0
+    "m_ColorMode": 1
 }
 
 {
@@ -2043,7 +2043,7 @@
         "a": 1.0
     },
     "isMainColor": false,
-    "m_ColorMode": 0
+    "m_ColorMode": 1
 }
 
 {
@@ -4474,8 +4474,8 @@
     "m_ObjectId": "def425e6da694b03ae985f3165167b8d",
     "m_Title": "Flow",
     "m_Position": {
-        "x": -1697.0001220703125,
-        "y": -325.0001220703125
+        "x": -1697.60009765625,
+        "y": -326.4000244140625
     }
 }
 
